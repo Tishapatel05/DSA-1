@@ -1,0 +1,40 @@
+* Static block and constructor 
+    constructors are nothing but to intialized the objects. For every class there will be a default constructor. Whenever to create an object constructor will be called that object will be  created.
+Constructor having class name are method properties.
+
+Static block: 
+ static block will be created with a static keyword. it will be called automatically. no need to call with either object or class
+
+Static method:
+for static method no need to call with object you can directly call with class name and here static will act as instance or object.
+
+Condtitonal Statements:
+types : 
+if - else, else-if ladder , switch case
+
+conditional statement are used to check the condition and tp print the relevant block in constant time . 
+  if  (statement)
+    {
+      return truee or else return false  
+    }
+else 
+    {
+  if gives false then we use this else part 
+    }
+
+control statements:
+  entry control loop 
+     for and while loop 
+eg of for: 
+ for(start;end; diff)
+eg for start:
+  start;
+  while(end){
+     diff;
+  }
+when we know the range we will use for loop and when we dont know the range we prefer to use while loop
+  exit control loop
+     
+
+
+  
