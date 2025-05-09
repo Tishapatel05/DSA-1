@@ -51,5 +51,22 @@ If the array type is int, all the default values are 0 .If it is a string , al t
 
 Whenever we are trying to assign or trying to get nth value of array you will get exception called arrays
 
+public class MaxValue {
+    public static void main(String[] args) {
+        int[] arr = {2,27,11,99,34};
+
+        int j = arr[0]; 
+
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > j) {
+                j = arr[i];
+            }
+        }
+
+        System.out.println("The Second highest value in the array is: " + j);
+    }
+}
+
+
 
 
