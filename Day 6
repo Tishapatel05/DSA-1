@@ -1,0 +1,6 @@
+2-D Array 
+Its consists of rows and columns 
+syntax: 
+  int[][] arr = new int[][], 
+a very first bracket represent rows an second columns. 
+By declaring the array we have to declare number of rows and column no. are optional . each row will act as a individual array . 
