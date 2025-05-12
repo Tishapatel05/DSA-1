@@ -1,0 +1,23 @@
+Array list:
+array having fixed size so once we declared , we cant change the size 
+so to increase array size dynamically , we have to use array list. Its belongs to collection framework . 
+
+Synatx:
+List<Wraper Class> ArrayListname = new ArrayList();
+List<Integer>leaders = new ArrayList();
+List is an interface . and interface contain incomplete methods. 
+Wrapper class not a primitive data type , its a class and in collections  we have to wrapper class only.
+Generics(<>)
+
+What is framework??
+Framework is nothing but pre defined methods and will guide the program. 
+
+Array list is a class and it contains complete methods. 
+Array list is a dynamic array . If array size is 2 and trying to add third element the size will be double and it will copy previos elements vice versa the array will become half .
+As aaray list is a class you have to import the array list class.Now we can access all the pre defined methods which consist in array list.
+
+Sub arrays:
+A subarray is a contiguous section of an array . Its a part of the array that includes consecutive elements from the original array .
+
+Maximum sum of Sub array :
+it is a kaden's algorithm. 
