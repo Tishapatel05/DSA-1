@@ -1,0 +1,29 @@
+#Recursions 
+Function call itself and itself till it meets base condition .
+There are 2 types of recursion:
+1.function calling same function itself and itself 
+2.function calling another function till it meets base condition .
+If we didnt mention base condition properly we get can an exception called stack overflow.
+write a code for factorial using recursion 
+5!=5!*4!
+4!=4!*3!
+3!=3!*2!
+2!=2!*1!
+1!=1!*0!
+
+sdueo code:
+fact(n){
+ if(n==0){
+  return 1 ;
+ else 
+  return n * fact(n-1);
+ }
+}
+for every recursive call, elments will be pushed into stack. After reaching base condtion elements will be popped.
+For our question, 5,4,3,2,1 all these values will be pushed in stack 
+Recursions  are used to break the code
+
+max= Math.max(arr[i],max);
+min = Math.min(arr[i],min);
+
+In java we dont have pointers so we cant use references  
