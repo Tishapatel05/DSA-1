@@ -1,0 +1,24 @@
+#Recursions
+
+Q.From agiven string , we  have to remove a charachter using recursions.
+A.Assume that we are starting wirh two strings: Input and output at initial output string is empty.
+we have few steps:
+1). Take the first character from the string and store in a character variable.
+2). Check the varibale with our target. If it matches, just return ouptut string, else\
+3). Next slice teh string by 1 character .
+4).To get a particular character placed at a particular index , we have to use charct()
+
+"Hello"
+
+From a given string skip a entire word and print rest of the character 
+
+From the given string u have to skip he  not hello 
+
+
+initialize the pointers according to the question.
+if u r starting first pointer at 0th indec and 2nd pointer at last index, wheneverb both pointers crosses each other , breaks the loop
+in betwwen do the relevant  operation .
+
+Reversing an array
+
+1. 
