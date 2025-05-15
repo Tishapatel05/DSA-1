@@ -1,0 +1,35 @@
+#Strings:
+1. String are classes.Arrays are objects.So the sequence of character is called strings.So strings are immmutable. All the array objects will be created inside heap memory. 
+Once a string got created it will be created like fixed . It means we cant modified the strings 
+
+// String a = "Hello";
+// String b = "Hello";
+ System.out.println(a==b);
+
+Is == to compare  address location . 
+
+ System.out.println(a=b);+
+
+= helps to compare data. 
+To get array length we have to use array.length method
+but to get string length, we use array.length method and it will return no. of characters. 
+
+Convert the string into character array and then reverse it
+
+- length() - Returns the length of the string.
+- charAt(int index) - Returns the character at the specified index.
+- substring(int beginIndex, int endIndex) - Extracts a portion of the string.
+- contains(CharSequence s) - Checks if the string contains the specified sequence.
+- startsWith(String prefix) / endsWith(String suffix) - Checks if the string starts/ends with a given substring.
+- toUpperCase() / toLowerCase() - Converts the string to uppercase or lowercase.
+- trim() - Removes leading and trailing spaces.
+- replace(String old, String new) - Replaces occurrences of a substring.
+- split(String regex) - Splits the string into an array based on a regex.
+- equals(String anotherString) / equalsIgnoreCase(String anotherString) - Compares two strings.
+
+#Subset:
+So for a given array , we have to print teh possible arrays . It should be in a sequence but not continuous thats called a subset 
+In an array if we have n no. of elments will get  2n subset
+
+In recursion, we have only two possibilites. either if or else and in backtracking we have multiple possibilities in most of the problems , whenever we reach base case , we have to print all the bese case elements
+remove last element in every recursive call then the backtracking will complete.5 
