@@ -1,0 +1,16 @@
+#Dtuch Flag Algorithm 
+
+1. initialize 3 pointers L at 0th index and M at 0th index, h at n-1 index
+Thwe elements between m and h are unsorted so we have to traverse at m and h .
+If arr[m] = 0 swap between arr[m] and arr[l] and increase l.
+if arr[m] = 1, just increase m.else swap arr[m] and arr[h] and increase h. 
+
+#Collection frameworks 
+
+List                    Set                   Map
+.Arraylist           .Hashset               .Hashmap
+.Linkedlist          .LinkedHashset         .LinkedHashmap
+.Vector              .Treeset               .Treemap
+
+1. List ,set and map these are interfaces. rest of the all terms are classes. Interface contains incomplete methods. class contains complete methods. 
+2. List is ordered which can allow duplicates. Set is unordered which  wont accept duplicates. Maps contains key value  pairs.
