@@ -26,21 +26,24 @@ The substring() method in Java extracts a portion of a string, returning it as a
 2. Job scheduling 
 3. 0/1 fractional knapsack.
 
-#Job Scheduling :
+#N-meetings in a room
+Input:  N = 6,  start[] = {1,3,0,5,8,5}, end[] =  {2,4,5,7,9,9}
 
-Example 1:
+Output: 1 2 4 5
 
-Input N = 4, Jobs ={91,4,20),(2,1,10),(3,1,40),(4,1,30)}
+Explanation: See the figure for a better understanding. 
+
+#job scheduling
+Input: N = 4, Jobs = {(1,4,20),(2,1,10),(3,1,40),(4,1,30)}
 
 Output: 2 60
 
-explanation:
-The 3rd job with deadline 1 is performed during the 1st unit of time. The 2nd unit of the time as its deadline is 4 
-Profit =  40 + 20 = 60
+Explanation: The 3rd job with a deadline 1 is performed during the first unit of time .The 1st job is performed during the second unit of time as its deadline is 4.
+Profit = 40 + 20 = 60
 
 #0/1 fractional knapsack problem
 Input: N = 3, W = 50, values[] = {100,60,120}, weight[] = {20,10,30}.
 
 Output: 240.00
 
-Explanation: The first and second items  are taken as a whole  while only 20 units of the third item is taken. Total value = 100 + 60 + 80 =240.00
+Explanation: The first and second items  are taken as a whole  while only 20 units of the third item is taken. Total value = 100 + 60 + 80 =
